@@ -1,44 +1,104 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <title>Lingnan He </title>
-  <link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Lingnan He</title>
+  <link rel="stylesheet" href="style.css" />
+  <style>
+    body {
+      font-family: "Helvetica Neue", sans-serif;
+      line-height: 1.6;
+      margin: 0;
+      padding: 0;
+      background: #f9f9f9;
+      color: #333;
+    }
+
+    header, nav, main, footer {
+      max-width: 800px;
+      margin: auto;
+      padding: 1.5rem;
+    }
+
+    header {
+      background: #fff;
+      border-bottom: 1px solid #ccc;
+    }
+
+    header h1 {
+      margin-bottom: 0.2em;
+    }
+
+    nav {
+      background: #f0f0f0;
+      display: flex;
+      gap: 1rem;
+      border-bottom: 1px solid #ddd;
+    }
+
+    nav a {
+      text-decoration: none;
+      color: #0074d9;
+    }
+
+    section {
+      margin-top: 2em;
+    }
+
+    ul {
+      padding-left: 1.2em;
+    }
+
+    footer {
+      text-align: center;
+      font-size: 0.9em;
+      color: #777;
+      margin-top: 3em;
+    }
+  </style>
 </head>
 <body>
+
   <header>
     <h1>Lingnan He</h1>
     <p>Ph.D. Candidate, Political Science<br>
     University of Chicago</p>
+    <p><a href="cv.pdf" target="_blank">Download CV (PDF)</a></p>
   </header>
 
   <nav>
     <a href="#about">About</a>
     <a href="#research">Research</a>
+    <a href="#contact">Contact</a>
   </nav>
 
   <main>
+
     <section id="about">
       <h2>About</h2>
-      <p>Hi! I am a Ph.D. candidate in Political Science at the University of Chicago.</p>
+      <p>I am a Ph.D. candidate in Political Science at the University of Chicago. My research explores how authoritarian governments strategically adjust legal and institutional environments to attract foreign investment, focusing on judicial reforms, transnational law, and global trade politics.</p>
     </section>
 
     <section id="research">
       <h2>Research</h2>
       <ul>
-       
+        <li><strong>Persistent Overhaul or a Quick Fix:</strong> Explains how authoritarian regimes use systematic legal reform vs. one-off judicial interventions to influence foreign investor confidence.</li>
+        <li><strong>Where Corruption Feels Like Home:</strong> Examines how institutional familiarity, not just quality, drives Chinese and American FDI patterns using historical FCPA shocks.</li>
+        <li><strong>Exporting Disputes:</strong> Models when foreign firms rely on courts vs. informal protection in weak-rule-of-law regions, drawing on Chinese court-level appeal and win rate data.</li>
       </ul>
     </section>
 
-
     <section id="contact">
       <h2>Contact</h2>
-      <p>Email: <a href="mailto:lingnan@uchicago.edu">lingnan@uchicago.edu</a><br>
+      <p>Email: <a href="mailto:lingnan@uchicago.edu">lingnan@uchicago.edu</a></p>
     </section>
+
   </main>
 
   <footer>
     <p>&copy; 2025 Lingnan He</p>
   </footer>
+
 </body>
 </html>
