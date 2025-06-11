@@ -290,3 +290,13 @@ details p {
   margin-left: 0.5em;
   margin-top: 0.6em;
 }
+
+
+/* Hide the default arrow */
+details summary {
+  list-style: none; /* Remove browser's triangle */
+}
+
+details summary::-webkit-details-marker {
+  display: none;
+}
