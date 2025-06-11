@@ -270,20 +270,23 @@ footer {
 }
 
 
-details summary {
-  cursor: pointer;
-  font-size: 1em;
-  font-weight: bold;
-  padding: 0.2em 0;
+ul.papers {
+  list-style: none;
+  padding-left: 0;
 }
 
-details summary:hover {
+ul.papers li {
+  margin-bottom: 1.8em;
+}
+
+details summary {
+  cursor: pointer;
   color: #0055a5;
+  font-weight: bold;
+  margin-top: 0.4em;
 }
 
 details p {
-  margin-left: 1.2em;
-  margin-top: 0.5em;
-  margin-bottom: 0.5em;
-  color: #444;
+  margin-left: 0.5em;
+  margin-top: 0.6em;
 }
